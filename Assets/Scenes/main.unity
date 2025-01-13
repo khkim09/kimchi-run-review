@@ -1428,6 +1428,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 3
   maxSpawnDelay: 5
+  isEnemySpawner: 0
+  scoreThresholds: f4010000b0040000d0070000
+  currentThresholdIndex: 0
   gameObjects:
   - {fileID: 4256153296222161591, guid: 8e619aedc2efe8d49b00d963e621df6c, type: 3}
   - {fileID: 4256153296222161591, guid: 2c5b4c398c66cf7469cb59648c4ab6b0, type: 3}
@@ -1740,6 +1743,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 3
   maxSpawnDelay: 6
+  isEnemySpawner: 1
+  scoreThresholds: 320000006400000096000000
+  currentThresholdIndex: 0
   gameObjects:
   - {fileID: 4539645123323471137, guid: 632571699ea18484182aeb7a71299858, type: 3}
   - {fileID: 3126680038410353401, guid: 4ecc5dae8ed2f1046a55be8f55c32d69, type: 3}
@@ -2041,6 +2047,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 7
   maxSpawnDelay: 15
+  isEnemySpawner: 0
+  scoreThresholds: f4010000b0040000d0070000
+  currentThresholdIndex: 0
   gameObjects:
   - {fileID: 2853751257289229048, guid: eb51c4dc99134e247a41950e13b2acc0, type: 3}
   - {fileID: 2853751257289229048, guid: 747028a973f1d0e4eb2263208731b122, type: 3}
@@ -2195,6 +2204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 15
   maxSpawnDelay: 30
+  isEnemySpawner: 0
+  scoreThresholds: f4010000b0040000d0070000
+  currentThresholdIndex: 0
   gameObjects:
   - {fileID: 2853751257289229048, guid: 3df8e42c6bf934b4c8f8a6804a193532, type: 3}
 --- !u!4 &1151151107

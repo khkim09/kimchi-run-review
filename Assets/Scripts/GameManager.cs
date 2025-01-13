@@ -70,9 +70,9 @@ public class GameManager : MonoBehaviour
         if (gameState != GameState.Playing) // 게임 실행 중이 아니라면 속도 5 고정
             return 5f;
 
-        float speed = 8f + 0.7f * Mathf.Floor(CalculateScore() / 100f); // 현재 점수에 따른 속도 상승
+        float speed = 8f + 0.8f * Mathf.Floor(CalculateScore() / 50f); // 현재 점수에 따른 속도 상승
 
-        return Mathf.Min(speed, 30f); // 최대 속도 30으로 지정
+        return Mathf.Min(speed, 100f); // 최대 속도 100으로 지정
     }
 
     void Update()
